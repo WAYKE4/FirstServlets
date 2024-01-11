@@ -1,0 +1,28 @@
+<web-app>
+    <servlet>
+        <servlet-name>TimeInMinsk</servlet-name>
+        <servlet-class>TimeServletMinsk</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TimeInMinsk</servlet-name>
+        <url-pattern>/minsk</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TimeInWashington</servlet-name>
+        <servlet-class>TimeServletWashington</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TimeInWashington</servlet-name>
+        <url-pattern>/washington</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TimeInBeijing</servlet-name>
+        <servlet-class>TimeServletBeijing</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TimeInBeijing</servlet-name>
+        <url-pattern>/beijing</url-pattern>
+    </servlet-mapping>
+</web-app>
